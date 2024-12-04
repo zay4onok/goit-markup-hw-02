@@ -108,12 +108,12 @@ a {
 
 .hero__btn:hover,
 .hero__btn:focus {
-  color: var(--ocean);
+  background-color: var(--ocean);
 }
 
 /* features */
 
-.features__title {
+.hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -125,7 +125,7 @@ a {
   border: 0;
 }
 
-.features__item-title {
+.h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -135,7 +135,7 @@ a {
 
 /* services */
 
-.title {
+.h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -153,14 +153,6 @@ a {
 
 .team__member {
   background-color: var(--white);
-}
-
-.team__title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--gray);
 }
 
 .footer {
