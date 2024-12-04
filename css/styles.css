@@ -166,3 +166,25 @@ a {
 .footer__text {
   color: #f4f4fd;
 }
+
+/* filter */
+.portfolio__filter-item {
+}
+
+.portfolio__filter-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background-color: var(--cloud);
+  border: none;
+  cursor: pointer;
+}
+
+.portfolio__filter-btn:hover,
+.portfolio__filter-btn:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
