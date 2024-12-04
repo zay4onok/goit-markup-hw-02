@@ -41,6 +41,8 @@ a {
   list-style: none;
 }
 
+/* header */
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -77,6 +79,8 @@ a {
   color: var(--ocean);
 }
 
+/* hero */
+
 .hero {
   background-color: var(--gray);
 }
@@ -104,4 +108,26 @@ a {
 .hero__btn:hover,
 .hero__btn:focus {
   color: var(--ocean);
+}
+
+/* features */
+
+.features__title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.features__item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--gray);
 }
