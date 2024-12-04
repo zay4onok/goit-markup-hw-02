@@ -76,3 +76,32 @@ a {
 .address__link:focus {
   color: var(--ocean);
 }
+
+.hero {
+  background-color: var(--gray);
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+}
+
+.hero__btn {
+  font-family: "Roboto", sans-serif;
+  font-family: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--iris);
+  letter-spacing: 0.04em;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.hero__btn:hover,
+.hero__btn:focus {
+  color: var(--ocean);
+}
