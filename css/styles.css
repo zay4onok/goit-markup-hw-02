@@ -144,4 +144,32 @@ a {
   color: var(--gray);
 }
 
+/* team */
 
+.team {
+  background-color: var(--cloud);
+}
+
+.team__member {
+  background-color: var(--white);
+}
+
+.team__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--gray);
+}
+
+.footer {
+  background-color: var(--gray);
+}
+
+.footer .logo {
+  color: #f4f4fd;
+}
+
+.footer__text {
+  color: #f4f4fd;
+}
